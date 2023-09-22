@@ -387,7 +387,7 @@ calibration period.
 
 In the above example we demonstrate how distribution fitting parameters can be saved as NetCDF.
 This fittings NetCDF can then be used as pre-computed variables in subsequent SPI computations.
-Inital command computes both distribution fitting values and SPI for various month scales.
+Initial command computes both distribution fitting values and SPI for various month scales.
 The distribution fitting variables are written to the file specified by the `--save_params` option.
 The second command also computes SPI but instead of computing the distribution fitting values
 it loads the pre-computed fitting values from the NetCDF file specified by the `--load_params`
